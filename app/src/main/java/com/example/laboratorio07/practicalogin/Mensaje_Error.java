@@ -22,8 +22,11 @@ public class Mensaje_Error extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                //este es codigo de simon
+                setContentView(R.layout.activity_home);
             }
         });
+
     }
 
 }
