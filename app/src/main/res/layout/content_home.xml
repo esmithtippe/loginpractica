@@ -16,9 +16,12 @@
         <TextView
             android:id="@+id/txtHome"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_blue_bright"
             android:gravity="center"
-            android:text="TextView"
+            android:lineSpacingExtra="30sp"
+            android:text="Bienvenido Juan Perez"
+            android:textColor="@android:color/holo_red_dark"
             android:textSize="20sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
