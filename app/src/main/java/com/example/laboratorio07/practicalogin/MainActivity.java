@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
                     irHome.putExtra("contraseña",pass);
                     startActivity(irHome);
                 }else {
-                    Intent irHome =  new Intent(this,Error.class);
-                    startActivity(irHome);
+                    Intent irMensaje_error =  new Intent(this,Mensaje_Error.class);
+                    startActivity(irMensaje_error);
                 } break;
             case (R.id.btnCancelar):
                 txt_Usuario.setText(null);
