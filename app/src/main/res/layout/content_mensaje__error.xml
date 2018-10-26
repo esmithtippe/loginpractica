@@ -15,9 +15,20 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="match_parent"
-            android:layout_height="189dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center"
             app:srcCompat="@drawable/acceso_denegado" />
+
+        <ImageView
+            android:id="@+id/ivRegresar"
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/backboton" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
